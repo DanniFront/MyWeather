@@ -7,7 +7,48 @@ body {
 }
 
 .app-container {
-  max-width: 800px;
+  max-width: 600px;
   background-color: #ffff;
+  box-shadow: 7px 5px 12px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
+  padding: 20px 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-weight: 500;
+}
+header {
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 20px;
+}
+.search-input {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  width: 75%;
+  font-size: 16px;
+}
+.search-button {
+  background: #885df1;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  width: 15%;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 1.5;
+  border-top: 1px solid #f5f5f5;
+  padding-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #885df1;
 }
