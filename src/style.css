@@ -1,0 +1,13 @@
+body {
+  background: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.app-container {
+  max-width: 800px;
+  background-color: #ffff;
+  margin: 20px auto;
+}
