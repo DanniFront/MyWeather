@@ -64,24 +64,23 @@ p strong {
 }
 
 .current-weather-temperature {
-  margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
 }
 
 .weather-emoji {
-  position: relative;
-  bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .weather-temperature {
-  font-size: 86px;
+  font-size: 66px;
   font-weight: 600;
-  position: relative;
-  bottom: 20px;
 }
 
 .weather-unit {
   position: relative;
-  bottom: 60px;
+  bottom: 20px;
   font-size: 25px;
   font-weight: 500;
 }
