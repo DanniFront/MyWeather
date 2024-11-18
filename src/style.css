@@ -91,6 +91,35 @@ p strong {
   font-weight: 500;
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+.weather-forecast-date {
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.weather-forecast-emoji {
+  text-align: center;
+  font-size: 36px;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  color: #ff0000;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.weather-forecast-temp {
+  margin: 0 5px;
+}
 a {
   font-size: 16px;
   text-decoration: none;
