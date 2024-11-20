@@ -19,6 +19,8 @@ function updateWeather(response) {
       src="${response.data.condition.icon_url}"
     />
   `;
+
+  getForecast(response.data.city);
 }
 
 function formatDate(date) {
@@ -59,7 +61,14 @@ function citySearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", citySearchSubmit);
 
-function displayForecast() {
+function getForecast(city) {
+  let apiKey = `748d5734be19te1af0e3a12aa9abaofd`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios(apiUrl).then(displayForecast);
+}
+
+function displayForecast(response) {
+  console.log(response.data);
   let days = ["Thu", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
   days.forEach(function (day) {
@@ -81,4 +90,3 @@ function displayForecast() {
 }
 
 searchCity("Helsingborg");
-displayForecast();
