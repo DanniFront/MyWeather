@@ -107,11 +107,10 @@ p strong {
 }
 .weather-forecast-date {
   text-align: center;
-  margin-bottom: 20px;
   opacity: 0.5;
 }
 
-.weather-forecast-emoji {
+.weather-forecast-icon {
   text-align: center;
   font-size: 36px;
 }
@@ -120,15 +119,13 @@ p strong {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
   color: #ff0000;
   opacity: 0.5;
-  margin-bottom: 20px;
   font-size: 16px;
 }
 
 .weather-forecast-temp {
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 a {
