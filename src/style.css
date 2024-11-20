@@ -36,7 +36,7 @@ header {
   width: 75%;
 }
 .search-button {
-  background: #8064e9;
+  background: #f8b8b8;
   color: #ffff;
   box-shadow: 7px 5px 12px rgba(0, 0, 0, 0.1);
   padding: 15px;
@@ -49,7 +49,7 @@ header {
 
 .search-button:hover {
   cursor: pointer;
-  background: #745ad9;
+  background: #f79a9a;
 }
 
 .current-weather-details {
@@ -134,7 +134,7 @@ p strong {
 a {
   font-size: 16px;
   text-decoration: none;
-  color: #8064e9;
+  color: #ff8989;
 }
 footer {
   text-align: center;
