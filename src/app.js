@@ -99,4 +99,4 @@ function displayForecast(response) {
   forecastElement.innerHTML = forecastHtml;
 }
 
-searchCity("Helsingborg");
+searchCity("Marbella");
